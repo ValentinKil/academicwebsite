@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://valentinkil.github.io/academicwebsite/sitemap.xml
