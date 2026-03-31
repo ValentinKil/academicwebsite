@@ -7,21 +7,21 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/academicwebsite/";
     },
   },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/academicwebsite/cv/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "Please refer to Google Scholar for the most up-to-date list of my publications.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Publications/";
+            window.location.href = "/academicwebsite/Publications/";
           },
         },{
         id: 'social-bluesky',
