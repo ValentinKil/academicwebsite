@@ -71,10 +71,7 @@ jobs:
           # Fix the "frozen" error by allowing the lockfile to update
           bundle config set --local frozen false
           bundle install
-          
-          # Install notebook tools
-          pip3 install nbconvert
-          
+                    
           # Build the site
           export JEKYLL_ENV=production
           bundle exec jekyll build
