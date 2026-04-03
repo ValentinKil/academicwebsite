@@ -20,3 +20,25 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons.scss",
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss";
+
+
+  // Sticky Footer Fix
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+
+// This targets the main content container in your default layout
+body > .container[role="main"] {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
